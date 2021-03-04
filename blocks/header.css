@@ -1,0 +1,127 @@
+.header {
+    min-height: 630px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 56px 72px 0;
+}
+
+.header-nav__link {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    transition: opacity .3s;
+}
+
+.header-nav__link:last-of-type {
+    margin-right: 0;
+}
+
+.header-nav__link:hover {
+    opacity: .6;
+}
+
+.header-top__link {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: opacity .3s;
+}
+
+.header-top__link:hover {
+    opacity: .6;
+}
+
+.header-intro__image {
+    width: 385px;
+    height: 385px;
+    position: absolute;
+    bottom: 143px;
+    right: 170px;
+    z-index: -1;
+}
+
+.header-intro__title {
+    max-width: 560px;
+    margin: 215px 0 38px 76px;
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    color: #fecfab;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+}
+
+.header-intro__subtitle {
+    margin: 0 0 0 76px;
+    max-width: 580px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+@media (max-width: 1279px) {
+    .header-intro__image {
+        right: 70px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .header-intro__subtitle {
+        max-width: 460px;
+    }
+    .header-intro__title {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 983px) {
+    .header-intro__image {
+        position: static;
+        margin: 50px 0 100px 50%;
+        transform: translateX(-50%);
+    }
+    .header-intro__subtitle {
+        max-width: 580px;
+    }
+    .header-top {
+        margin: 23px 32px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-intro__title {
+        margin-left: 32px;
+        margin-bottom: 20px;
+    }
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-nav__link {
+        font-size: 12px;
+    }
+    .header-top__link {
+        font-size: 12px;
+    }
+    .header-intro__subtitle {
+        font-size: 24px;
+        margin-left: 32px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-intro__image {
+        width: 320px;
+        height: 320px;
+    }
+}

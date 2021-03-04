@@ -1,0 +1,63 @@
+.people__title {
+    max-width: 150px;
+    margin: 145px 0 41px 73px;
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    color: #fecfab;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+}
+
+.people__subtitle {
+    max-width: 435px;
+    margin: 0 0 135px 73px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.table {
+    margin: 0 73px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+
+.table__heading {
+    margin: 0;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.table__text {
+    margin: 33px 0 160px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+@media (max-width: 1023px) {
+    .table {
+        grid-template-columns: repeat(auto-fit, minmax(217px, 1fr));
+        row-gap: 20px;
+    }
+    .table__text {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .people__title {
+        margin: 50px 0 20px 32px;
+    }
+    .people__subtitle {
+        margin: 0 0 50px 32px;
+        font-size: 24px;
+    }
+    .table {
+        margin: 0 32px;
+    }
+}
