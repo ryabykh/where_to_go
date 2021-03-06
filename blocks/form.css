@@ -186,9 +186,6 @@
     .form-block__button {
         margin-left: 119px;
     }
-    .form-block__title {
-        margin: 50px 0 30px 50px;
-    }
 }
 
 @media (max-width: 767px) {

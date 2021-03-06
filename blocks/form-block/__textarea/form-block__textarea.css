@@ -1,0 +1,77 @@
+.form-block__textarea {
+    width: 382px;
+    min-height: 110px;
+    margin: 0 0 20px 78px;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.form-block__textarea::-moz-placeholder {
+    color: #000;
+}
+
+.form-block__textarea::-webkit-input-placeholder {
+    color: #000;
+}
+
+.form-block__textarea:-ms-input-placeholder {
+    color: #000;
+}
+
+.form-block__textarea:focus {
+    box-shadow: 1px 3px 10px 3px #2f2f2f;
+}
+
+.form-block__textarea::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__textarea::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__textarea:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__textarea:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__textarea:focus::-webkit-input-placeholder {
+    opacity: .1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__textarea:focus::-moz-placeholder {
+    opacity: .1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__textarea:focus:-moz-placeholder {
+    opacity: .1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__textarea:focus:-ms-input-placeholder {
+    opacity: .1;
+    transition: opacity 0.3s ease;
+}
+
+@media (max-width: 1023px) {
+    .form-block__textarea {
+        margin-left: 50px;
+        max-width: 282px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-block__textarea {
+        margin-left: 24px;
+    }
+}

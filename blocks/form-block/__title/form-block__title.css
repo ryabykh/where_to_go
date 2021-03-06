@@ -1,0 +1,27 @@
+.form-block__title {
+    max-width: 270px;
+    margin: 150px 0 92px 73px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .form-block__title {
+        margin: 50px 0 30px 50px;
+    }
+}
+
+@media (max-width: 783px) {
+    .form-block__title {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-block__title {
+        text-align: center;
+        max-width: 260px;
+        margin: 50px 0 50px 24px;
+        font-size: 24px;
+    }
+}

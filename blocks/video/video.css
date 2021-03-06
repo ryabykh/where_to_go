@@ -1,0 +1,17 @@
+.video {
+    max-width: 1380px;
+    height: 674px;
+    position: relative;
+}
+
+@media (max-width: 1023px) {
+    .video {
+        height: 444px;
+    }
+}
+
+@media (max-width: 767px) {
+    .video {
+        height: 333px;
+    }
+}

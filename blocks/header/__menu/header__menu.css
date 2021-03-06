@@ -1,0 +1,18 @@
+.header__menu{
+    margin: 56px 74px 0 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px){
+    .header__menu {
+        margin: 42px 36px 0 36px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header__menu {
+        margin: 24px 24px 0 24px;
+    }
+}

@@ -1,0 +1,31 @@
+.form-block__button {
+    margin: 0 0 20px 249px;
+    width: 217px;
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    outline: none;
+    transition: box-shadow .3s;
+}
+
+.form-block__button:hover {
+    cursor: pointer;
+}
+
+.form-block__button:active {
+    transform: translateY(1px);
+}
+
+@media (max-width: 1023px) {
+    .form-block__button {
+        margin-left: 119px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-block__button {
+        margin-left: 92px;
+    }
+}
