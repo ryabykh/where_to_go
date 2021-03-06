@@ -1,0 +1,16 @@
+.place {
+    display: flex;
+}
+
+.place:nth-child(2n+1) {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        flex-direction: column;
+    }
+    .place:nth-child(2n+1) {
+        flex-direction: column;
+    }
+}

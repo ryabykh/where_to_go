@@ -1,0 +1,77 @@
+.form-block__input {
+    width: 382px;
+    min-height: 34px;
+    margin: 0 20px 20px 78px;
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.form-block__input::-moz-placeholder {
+    color: #000;
+}
+
+.form-block__input::-webkit-input-placeholder {
+    color: #000;
+}
+
+.form-block__input:-ms-input-placeholder {
+    color: #000;
+}
+
+.form-block__input:focus {
+    box-shadow: 1px 3px 10px 3px #2f2f2f;
+}
+
+.form-block__input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__input:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__input:focus::-webkit-input-placeholder {
+    opacity: .1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__input:focus::-moz-placeholder {
+    opacity: .1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__input:focus:-moz-placeholder {
+    opacity: .1;
+    transition: opacity 0.3s ease;
+}
+
+.form-block__input:focus:-ms-input-placeholder {
+    opacity: .1;
+    transition: opacity 0.3s ease;
+}
+
+@media (max-width: 1023px) {
+    .form-block__input {
+        margin-left: 50px;
+        max-width: 282px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-block__input {
+        margin: 0 0 20px 24px;
+    }
+}

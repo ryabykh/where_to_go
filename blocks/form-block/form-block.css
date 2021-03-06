@@ -1,0 +1,15 @@
+.form-block {
+    margin: auto;
+}
+
+@media (max-width: 1023px) {
+    .form-block {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-block {
+        max-width: 360px;
+    }
+}

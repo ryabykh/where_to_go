@@ -1,0 +1,26 @@
+.footer {
+    max-width: 100%;
+    min-height: 666px;
+    background-color: #fecda7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        min-height: 444px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        min-height: 333px;
+    }
+}
+
+@media (max-width: 639px) {
+    .footer {
+        min-height: 222px;
+    }
+}

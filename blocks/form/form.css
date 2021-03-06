@@ -1,0 +1,19 @@
+.form {
+    min-height: 670px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 1023px) {
+    .form {
+        grid-template-columns: repeat(auto-fit, minmax(383px, 1fr));
+    }
+}
+
+@media (max-width: 783px) {
+    .form {
+        grid-template-columns: minmax(320px, 783px);
+        grid-template-rows: 430px 430px;
+    }
+}
